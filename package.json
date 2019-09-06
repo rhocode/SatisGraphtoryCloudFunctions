@@ -1,4 +1,26 @@
 {
-  "name": "sample-http",
-  "version": "0.0.1"
+  "name": "satisgraphtory-cloud-functions",
+  "version": "0.0.1",
+  "description": "Cloud functions for SatisGraphtory",
+  "repository": "https://github.com/rhocode/SatisGraphtoryCloudFunctions.git",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/storage": "^3.2.1",
+    "buffer": "^5.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.5.0",
+    "method-override": "^3.0.0",
+    "uuidv4": "^5.0.1",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "scripts": {
+    "build-funcs": "babel src/functions --out-dir dist/functions",
+    "postbuild-funcs": "babel package.json --out-dir dist/functions --copy-files"
+  }
 }
