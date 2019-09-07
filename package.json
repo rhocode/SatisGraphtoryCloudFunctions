@@ -15,9 +15,9 @@
     "zlib": "^1.0.5"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
   },
   "scripts": {
     "build-funcs": "babel src/functions --out-dir dist/functions",
