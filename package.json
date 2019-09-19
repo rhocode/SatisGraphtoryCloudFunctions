@@ -10,7 +10,7 @@
     "buffer": "^5.4.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "firebase-admin": "^8.5.0",
+    "firebase-admin": "^8.6.0",
     "gzip": "^0.1.0",
     "method-override": "^3.0.0",
     "uuidv4": "^5.0.1",
