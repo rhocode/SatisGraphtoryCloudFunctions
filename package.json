@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
   },
   "scripts": {
     "build": "babel src/functions --out-dir dist/functions",
