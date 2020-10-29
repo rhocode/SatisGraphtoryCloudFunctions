@@ -7,7 +7,7 @@
   "dependencies": {
     "@google-cloud/storage": "^3.2.1",
     "Base64": "^1.0.2",
-    "buffer": "^5.4.2",
+    "buffer": "^5.7.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "firebase-admin": "^8.5.0",
