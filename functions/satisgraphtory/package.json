@@ -1,0 +1,37 @@
+{
+  "name": "satisgraphtory-cloud-functions",
+  "version": "0.0.1",
+  "private": true,
+  "author": "rhocode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhocode/SatisGraphtoryCloudFunctions.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "deploy": "gcloud functions deploy storageTest --runtime nodejs12 --trigger-http --allow-unauthenticated"
+  },
+  "dependencies": {
+    "@google-cloud/debug-agent": "^5.0.0",
+    "escape-html": "^1.0.3",
+    "pug": "^3.0.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.7.1",
+    "@google-cloud/pubsub": "^2.0.0",
+    "@google-cloud/storage": "^5.3.0",
+    "child-process-promise": "^2.2.1",
+    "express": "^4.16.3",
+    "mocha": "^8.0.0",
+    "moment": "^2.24.0",
+    "promise-retry": "^2.0.0",
+    "proxyquire": "^2.1.0",
+    "request": "^2.88.0",
+    "requestretry": "^4.0.0",
+    "sinon": "^9.0.0",
+    "uuid": "^8.0.0"
+  }
+}
